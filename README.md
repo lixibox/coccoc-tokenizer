@@ -1,3 +1,6 @@
+## Note
+Read carefully before updating with upstream, [04cea4f](https://github.com/coccoc/coccoc-tokenizer/commit/04cea4f6ca4aeb91c29c0f6110b5906c120b1830) is the last version on which tokenizer was successfully built for LXB in Gentoo. Further updates must be tested on different branch before updating master. Steps to build the tokenizer is detailed here: https://github.com/lixibox/lixibox/wiki/Build-and-install-vietnamese-analysis-plugin-for-elasticsearch
+
 # C++ tokenizer for Vietnamese
 
 This project provides tokenizer library for Vietnamese language and 2 command line tools for tokenization and some simple Vietnamese-specific operations with text (i.e. remove diacritics). It is used in Cốc Cốc Search and Ads systems and the main goal in its development was to reach high performance while keeping the quality reasonable for search ranking needs.
